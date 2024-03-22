@@ -1,0 +1,206 @@
+*{
+    font-family: ibm;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+    background: #FFFF;
+}
+
+.badge{
+    width: 20px;
+    height: 20px;
+}
+
+.dashboard{
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 2rem 4rem;
+}
+
+.col1 p{
+    font-size: 15px;
+}
+
+.col1 span{
+    color: #ccc;
+}
+
+.col1 #sales{
+    color: #6595c6 !important;
+}
+
+.col2 .left-content{
+    justify-content: right;
+    align-items: center;
+}
+
+
+.left-content button{
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: #8392a5;
+    background: #FFFF;
+}
+
+#report button{
+    background: #0367f8;
+    color: #FFFF;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .col2{
+        display: none;
+    }
+}
+
+.dashbord-detail .first-col,.two-col, .third-col, .four-col{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-bottom: 10px;
+}
+
+
+
+.dashbord-detail .first{
+    color: #3ea169;
+    font-size: 13px;
+}
+
+.dashbord-detail .first1{
+    color: #adbbc9;
+    font-size: 13px;
+}
+
+.dashbord-detail .two{
+    color: #e04459;
+    font-size: 13px;
+}
+
+.dashbord-detail .two1{
+    color: #adbbc9;
+    font-size: 13px;
+}
+
+.dashbord-detail .third{
+    color: #e04459;
+    font-size: 13px;
+}
+
+.dashbord-detail .third1{
+    color: #adbbc9;
+    font-size: 13px;
+}
+
+.dashbord-detail .four{
+    color: #3ea169;
+    font-size: 13px;
+}
+
+.dashbord-detail .four1{
+    color: #adbbc9;
+    font-size: 13px;
+}
+
+.second-row{
+    margin-left: .2rem;
+}
+
+.account-detail{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1050px){
+    .account-detail .row{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.account-detail .row{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    margin-top: 10px;
+}
+
+.account-detail .account{
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.growth{
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round span{
+    box-sizing: border-box;
+    border: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 35%;
+    margin-top: -11px;
+}
+
+.round .act-gro{
+    background: #0168fa;
+}
+
+.round .act{
+    background: #69b2f8;
+}
+
+.round .plan{
+    background: #d1e6fa;
+}
+
+.revenue p{
+    font-size: 15px;
+    color: #8392a5;
+}
+
+.subscription{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+}
+
+.subscription p{
+    font-size: 15px;
+    color: #8392a5;
+}
+
+.bg{
+    background: #fafbfd;
+}
+
+.footer{
+    border-top: 1px solid #ccc;
+    color: #4e5554;
+    font-size: 15px;
+}

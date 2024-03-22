@@ -1,0 +1,66 @@
+*{
+    font-family: ibm;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+    background: #FFFF;
+}
+
+.login-page{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.login-heading p{
+    color: #8392a5;
+}
+
+.form-detail{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+.form-detail input{
+    width: 30vw;
+}
+
+.form-group ::placeholder{
+    color: #d7dce0;
+}
+
+.form-btn .btn{
+    width: 30vw;
+    background: #032893;
+    color: #FFFF;
+}
+
+@media screen and (max-width: 767px){
+    #password{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .form-detail input{
+        width: 70vw;
+    }
+    
+}
+
+.bg{
+    background: #fafbfd;
+}
+
+.footer{
+    border-top: 2px solid #ccc;
+    color: #4e5554;
+    font-size: 15px;
+    
+}
