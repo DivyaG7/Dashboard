@@ -1,5 +1,7 @@
-*{
-    font-family: ibm;
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar {
@@ -7,7 +9,7 @@
     background: #FFFF;
 }
 
-.login-page{
+.login-page {
     width: 100%;
     overflow: hidden;
     height: 100vh;
@@ -18,49 +20,50 @@
     padding: 4rem;
 }
 
-.login-heading p{
+.login-heading p {
     color: #8392a5;
 }
 
-.form-detail{
+.form-detail {
     display: flex;
     flex-direction: row;
     column-gap: 5%;
 }
 
-.form-detail input{
+.form-detail input {
     width: 30vw;
 }
 
-.form-group ::placeholder{
+.form-group ::placeholder {
     color: #d7dce0;
 }
 
-.form-btn .btn{
+.form-btn .btn {
     width: 30vw;
     background: #032893;
     color: #FFFF;
 }
 
-@media screen and (max-width: 767px){
-    #password{
+@media screen and (max-width: 767px) {
+    #password {
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
-    .form-detail input{
+
+    .form-detail input {
         width: 70vw;
     }
-    
+
 }
 
-.bg{
+.bg {
     background: #fafbfd;
 }
 
-.footer{
+.footer {
     border-top: 2px solid #ccc;
     color: #4e5554;
     font-size: 15px;
-    
+
 }
